@@ -1,0 +1,42 @@
+{
+  "broker": true,
+  "federates": [
+    {
+      "directory": ".",
+      "exec": "python Controller_2704.py",
+      "host": "localhost",
+      "name": "Controller_2704"
+    },
+    {
+      "directory": ".",
+      "exec": "python House_2704.py",
+      "host": "localhost",
+      "name": "House_2704"
+    },
+    {
+      "directory": ".",
+      "exec": "python Controller_7954.py",
+      "host": "localhost",
+      "name": "Controller_7954"
+    },
+    {
+      "directory": ".",
+      "exec": "python House_7954.py",
+      "host": "localhost",
+      "name": "House_7954"
+    },
+    {
+      "directory": ".",
+      "exec": "python EnergyOrder.py",
+      "host": "localhost",
+      "name": "energy_orders"
+    },
+    {
+      "directory": ".",
+      "exec": "python Market.py",
+      "host": "localhost",
+      "name": "market"
+    }
+  ],
+  "name": "eo_talking"
+}
