@@ -10,7 +10,7 @@ pip install git+git://github.com/GMLC-TDC/helics-cli.git@master
 ### Run
 
 ```sh
-helics run --path config.json
+helics run --path config.json --broker-loglevel=7
 ```
 
 ### Issue
